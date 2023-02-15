@@ -11,4 +11,20 @@ header,footer{
 #my-image{
     box-shadow: 0px 2px 0px 1px black
 }
-
+.hobby{
+    list-style-type: square;
+}
+.hobby li:nth-child(1){
+    background-color: rgb(156, 133, 179);
+}
+nav ul{
+list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(171, 137, 200);
+    border: 2px solid rgb(70, 39, 79);
+}
+nav a:hover{
+background-color: rgb(231, 151, 144);
+}
