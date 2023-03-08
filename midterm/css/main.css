@@ -5,7 +5,7 @@ html{
 }
 h1{
     padding-left:390px;
-    top: -50px;
+    top: 200px;
     position: absolute;
     font-size: 50px;
     font-weight: 50;
@@ -14,9 +14,9 @@ h1{
 header{
     width: 100%;
     text-align: center;
-    display: inline;
     height: auto;
     color: white;
+    position: relative;
 }
 
 nav ul li{
@@ -49,13 +49,13 @@ body{
 .wrapper {
 padding: 5px;
 width: 1000px;
+
 }
 .wrapper img{
     padding: 2px;
     width: 250px;
     height: 250px;
     float: left;
-   
 }
 /*adding a border around the form*/
 .form {
