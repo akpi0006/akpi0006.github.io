@@ -1,0 +1,74 @@
+/*changes the font and backgroung colour of the whole site*/
+html{
+    background-color: #aad4cf;
+    font-family: sans-serif;
+}
+h1{
+    padding-left:390px;
+    top: -50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 50;
+}
+/*changing heading text */
+header{
+    width: 100%;
+    text-align: center;
+    display: inline;
+    height: auto;
+    color: white;
+}
+
+nav ul li{
+    margin: 0%;
+    padding-top: 0px;
+    padding-left: 120px;
+    padding-right: 80px;
+    display: inline;
+    font-size: 30px;
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+/*adding vertical lines */
+.vertical {
+    border-right: solid;
+    border-left: solid;
+}
+
+header img{
+    width: 1000px;
+}
+/*changing padding display */
+body{
+    background-color:  rgb(212, 234, 233);
+    margin: auto;
+    width: 1000px;
+}
+.wrapper {
+padding: 5px;
+width: 1000px;
+}
+.wrapper img{
+    padding: 2px;
+    width: 250px;
+    height: 250px;
+    float: left;
+   
+}
+/*adding a border around the form*/
+.form {
+    border: solid;
+}
+
+.send {
+    border: solid;
+    width: 46px;
+    height: 30px;
+    text-align: right;
+}
+/*floats footer to the right */
+footer{
+    text-align: right;
+}
