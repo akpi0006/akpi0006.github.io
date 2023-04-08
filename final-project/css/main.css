@@ -1,1 +1,151 @@
-style="color: #c78b08;"
+html{
+    background-color:  rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.wrapper{
+    background-color: rgb(34, 34, 34);
+}
+header{
+    background-color: rgb(199, 139, 8);
+}
+.Home{
+    color: rgb(34, 34, 34);
+}
+nav ul li{
+    display: inline;/* Make it an inline element */
+    color:  rgb(199, 139, 8);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 6%;
+    padding-left: 300px;/* Set padding */
+    padding-right: 40px;/* Set padding */
+    text-align: center; /* Center text */
+}
+li a {
+    color: rgb(199, 139, 8);
+    text-decoration: none;
+}
+.search {
+   font-size: 30px;
+   width: 300px;
+   height: 40px;
+} 
+.fa-magnifying-glass{
+  color:  rgb(199, 139, 8);
+  width: 10px;
+  height: 10px;
+  border: 1px solid  rgb(199, 139, 8);
+  padding: 18px;/* Set padding */
+}
+header nav ul li a{
+    padding-left: 10px;/* Set padding */
+    font-weight: 50;
+    color: rgb(34, 34, 34);
+}
+.button {
+    background-color: rgb(199, 139, 8);
+    border: none; /* Remove borders */
+    color: rgb(0, 0, 0); 
+    padding: 12px 24px; /* Set padding */
+    text-align: center; 
+    display: inline-block; /* Make it an inline element */
+    font-size: 18px;
+}
+.button-1 {
+    background-color: rgb(34, 34, 34);
+    border: none; 
+    color: rgb(255, 255, 255); 
+    padding: 12px 24px;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 18px;
+}
+.button-2 {
+    background-color: rgb(12, 41, 69);
+    border: none; 
+    color: rgb(255, 255, 255); 
+    padding: 30px 40px;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 18px;
+    border: 2px solid rgb(199, 139, 8);
+}
+.button-3{
+    background-color: rgb(34, 34, 34);
+    border: none; 
+    color: rgb(199, 139, 8); 
+    padding: 8px 8px;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 18px;
+}
+.tble{
+     font-size: 50px;                                                 /*not working */
+}
+table {
+    width: 100%; /* Set table width to 100% */
+   font-family: Arial, sans-serif; 
+   font-size: 14px; 
+}
+th{
+    padding: 20px; /* Set padding for table data */
+    background-color: rgb(255, 230, 172); /* Set header background color */
+    /* border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0); */
+}
+td {
+    /* border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0); */
+    text-align: left; /* Align table data to the left */
+    padding: 20px; /* Set padding for table data */
+}
+tr {
+    background-color: #ffffff; /* Adds background color to even rows */
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+footer{
+    color: rgb(199, 139, 8); 
+}
+.wrapper-2 {
+    background-image: url(vision.jpg);
+    background-size: cover; /* Make the image cover the entire wrapper */
+}
+.wrapper-1{
+    padding: 5px;
+    width: 1000px;
+    background-color:  rgb(255, 230, 173);
+}
+
+.image-container {
+    position: relative; /* Set the position property of the parent container to relative */
+}
+.opacity {
+    position: absolute; /* Set the position property of the overlay to absolute */
+    top: 50%; /* Position the overlay at the center of the container vertically */
+    left: 50%; /* Position the overlay at the center of the container horizontally */
+    transform: translate(-50%, -50%); /* Use transform to center the overlay */
+    width: 80%; /* Set the width of the overlay */
+    height: 80%; /* Set the height of the overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Set the background color of the overlay to black with 50% opacity */
+    z-index: 1; /* Set the z-index property of the overlay to a higher value than the image, so it appears on top */
+}
+.text {
+    position: absolute; /* Set the position property of the text container to absolute */
+    top: 50%; /* Position the text container at the center of the container vertically */
+    left: 50%; /* Position the text container at the center of the container horizontally */
+    transform: translate(-80%, -50%); /* Use transform to center the text container */
+    z-index: 2; /* Sets the text container to a higher value than the opacity, so it appears on top */
+    color: rgb(0, 0, 0);
+    font-size: 1rem; 
+}
+  .text p {
+    color: rgb(255, 255, 255); 
+    font-size: 1rem;
+}
+
+
