@@ -4,6 +4,7 @@ html{
 }
 .wrapper{
     background-color: rgb(34, 34, 34);
+    width: 745px;
 }
 header{
     background-color: rgb(199, 139, 8);
@@ -18,8 +19,7 @@ nav ul li{
     flex-direction: column;
     font-size: 20px;
     margin: 6%;
-    padding-left: 300px;/* Set padding */
-    padding-right: 40px;/* Set padding */
+    padding-left: 10px;/* Set padding */
     text-align: center; /* Center text */
 }
 li a {
@@ -28,26 +28,24 @@ li a {
 }
 .search {
    font-size: 30px;
-   width: 300px;
-   height: 40px;
+   width: 683px;
+   height: 30px;
 } 
 .fa-magnifying-glass{
   color:  rgb(199, 139, 8);
   width: 10px;
   height: 10px;
   border: 1px solid  rgb(199, 139, 8);
-  padding: 18px;/* Set padding */
+  padding: 16px;/* Set padding */
 }
 header nav ul li a{
-    padding-left: 10px;/* Set padding */
-    font-weight: 50;
     color: rgb(34, 34, 34);
 }
 .button {
     background-color: rgb(199, 139, 8);
     border: none; /* Remove borders */
     color: rgb(0, 0, 0); 
-    padding: 12px 24px; /* Set padding */
+    padding: 30px 27px; /* Set padding */
     text-align: center; 
     display: inline-block; /* Make it an inline element */
     font-size: 18px;
@@ -56,7 +54,7 @@ header nav ul li a{
     background-color: rgb(34, 34, 34);
     border: none; 
     color: rgb(255, 255, 255); 
-    padding: 12px 24px;
+    padding: 35px 27px;
     text-align: center; 
     display: inline-block; 
     font-size: 18px;
@@ -111,13 +109,9 @@ tr {
 footer{
     color: rgb(199, 139, 8); 
 }
-.wrapper-2 {
-    background-image: url(vision.jpg);
-    background-size: cover; /* Make the image cover the entire wrapper */
-}
 .wrapper-1{
     padding: 5px;
-    width: 1000px;
+    width: 745px;
     background-color:  rgb(255, 230, 173);
 }
 
@@ -140,12 +134,37 @@ footer{
     left: 50%; /* Position the text container at the center of the container horizontally */
     transform: translate(-80%, -50%); /* Use transform to center the text container */
     z-index: 2; /* Sets the text container to a higher value than the opacity, so it appears on top */
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1rem; 
 }
   .text p {
     color: rgb(255, 255, 255); 
-    font-size: 1rem;
+    font-size: 13px;
 }
-
-
+.vision-paragraph{
+    position: absolute;
+    top: 80px;
+    left: 16px;
+    text-align: start;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 43px;
+}
+ h3{
+    font-size: 38px;
+}
+h4{
+    font-size: 28px;
+}
+h5{
+    font-size: 17px;
+    position: absolute;
+    top: 554px;
+    left: 6px;
+}
+/* horizontal line */
+hr {
+    border: none;
+    border-bottom: 2px solid rgb(199, 139, 8); /* 2px is the thickness and black is the color */
+}
