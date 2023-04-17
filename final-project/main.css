@@ -74,6 +74,9 @@ header nav ul li a{
     display: inline-block; 
     font-size: 18px;
 }
+
+
+
 table {
     border-collapse: collapse;
     width: 100%; /* Set table width to 100% */
@@ -130,7 +133,7 @@ tr {
 }
 .vision-paragraph{
     position: absolute;
-    top: 5390px;
+    top: 5375px;
     left: 16px;
     text-align: start;
     color: rgb(255, 255, 255);
@@ -155,8 +158,7 @@ hr {
     position: relative;
     top: -20px;
     border: none;
-    border-bottom: 2px solid rgb(199, 139, 8); 
-    /* 2px is the thickness and black is the color */
+    border-bottom: 2px solid rgb(199, 139, 8); /* 2px is the thickness and black is the color */
 }
 .nav{
     background-color: rgb(34, 34, 34);
