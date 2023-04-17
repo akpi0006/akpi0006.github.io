@@ -1,10 +1,5 @@
 html{
-    background-color:  rgb(255, 255, 255);
     font-family: sans-serif;
-}
-.wrapper{
-    background-color: rgb(34, 34, 34);
-    width: 745px;
 }
 header{
     background-color: rgb(199, 139, 8);
@@ -78,9 +73,6 @@ header nav ul li a{
     display: inline-block; 
     font-size: 18px;
 }
-.tble{
-     font-size: 50px;                                                 /*not working */
-}
 table {
     width: 100%; /* Set table width to 100% */
    font-family: Arial, sans-serif; 
@@ -106,15 +98,6 @@ tr {
     border-right: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
 }
-footer{
-    color: rgb(199, 139, 8); 
-}
-.wrapper-1{
-    padding: 5px;
-    width: 745px;
-    background-color:  rgb(255, 230, 173);
-}
-
 .image-container {
     position: relative; /* Set the position property of the parent container to relative */
 }
@@ -123,7 +106,7 @@ footer{
     top: 50%; /* Position the overlay at the center of the container vertically */
     left: 50%; /* Position the overlay at the center of the container horizontally */
     transform: translate(-50%, -50%); /* Use transform to center the overlay */
-    width: 80%; /* Set the width of the overlay */
+    width: 100%; /* Set the width of the overlay */
     height: 80%; /* Set the height of the overlay */
     background-color: rgba(0, 0, 0, 0.5); /* Set the background color of the overlay to black with 50% opacity */
     z-index: 1; /* Set the z-index property of the overlay to a higher value than the image, so it appears on top */
@@ -135,15 +118,15 @@ footer{
     transform: translate(-80%, -50%); /* Use transform to center the text container */
     z-index: 2; /* Sets the text container to a higher value than the opacity, so it appears on top */
     color: rgb(255, 255, 255);
-    font-size: 1rem; 
+    font-size: 20px; 
 }
-  .text p {
+.text p {
     color: rgb(255, 255, 255); 
     font-size: 13px;
 }
 .vision-paragraph{
     position: absolute;
-    top: 80px;
+    top: 5700px;
     left: 16px;
     text-align: start;
     color: rgb(255, 255, 255);
@@ -167,4 +150,22 @@ h5{
 hr {
     border: none;
     border-bottom: 2px solid rgb(199, 139, 8); /* 2px is the thickness and black is the color */
+}
+
+footer{
+    color: rgb(199, 139, 8); 
+}
+
+.nav{
+    background-color: rgb(34, 34, 34);
+}
+
+.wrapper {
+    padding: 5px;
+    width: 637px;
+}
+.wrapper-1{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px;
+   
 }
