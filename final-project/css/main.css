@@ -164,8 +164,8 @@ hr {
 }
 
 .wrapper {
-    padding: 5px;
-    width: 645px;
+    max-width: 1200px;
+
 }
 .wrapper-1{
     background-color:  rgb(255, 230, 172); 
