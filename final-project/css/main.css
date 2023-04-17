@@ -22,9 +22,10 @@ li a {
     text-decoration: none;
 }
 .search {
-   font-size: 30px;
-   width: 683px;
-   height: 30px;
+   font-size: 20px;
+   width:554px;
+   height: 35px;
+   padding: 6px;
 } 
 .fa-magnifying-glass{
   color:  rgb(199, 139, 8);
@@ -58,7 +59,7 @@ header nav ul li a{
     background-color: rgb(12, 41, 69);
     border: none; 
     color: rgb(255, 255, 255); 
-    padding: 30px 40px;
+    padding: 25px 30px;
     text-align: center; 
     display: inline-block; 
     font-size: 18px;
@@ -81,21 +82,20 @@ table {
 th{
     padding: 20px; /* Set padding for table data */
     background-color: rgb(255, 230, 172); /* Set header background color */
-    /* border-left: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
-    border-top: 1px solid rgb(0, 0, 0); */
+    border-top: 1px solid rgb(0, 0, 0);
 }
 td {
-    /* border-left: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(0, 0, 0); */
+    border-bottom: 1px solid rgb(0, 0, 0);
     text-align: left; /* Align table data to the left */
     padding: 20px; /* Set padding for table data */
 }
 tr {
     background-color: #ffffff; /* Adds background color to even rows */
-    border-right: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 .image-container {
@@ -126,7 +126,7 @@ tr {
 }
 .vision-paragraph{
     position: absolute;
-    top: 5700px;
+    top: 5248px;
     left: 16px;
     text-align: start;
     color: rgb(255, 255, 255);
@@ -140,12 +140,8 @@ h2{
 h4{
     font-size: 28px;
 }
-h5{
-    font-size: 17px;
-    position: absolute;
-    top: 554px;
-    left: 6px;
-}
+
+
 /* horizontal line */
 hr {
     border: none;
@@ -153,6 +149,7 @@ hr {
 }
 
 footer{
+    background-color: rgb(34, 34, 34);
     color: rgb(199, 139, 8); 
 }
 
@@ -162,10 +159,37 @@ footer{
 
 .wrapper {
     padding: 5px;
-    width: 637px;
+    width: 645px;
 }
 .wrapper-1{
     background-color:  rgb(255, 230, 172); 
-    padding: 15px;
-   
+    padding: 15px; 
+}
+.wrapper-2{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px; 
+}
+.wrapper-3{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px; 
+}
+.wrapper-4{
+    background-color:  rgb(255, 230, 172); 
+    padding: 0px; 
+}
+.wrapper-5{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px; 
+}
+.wrapper-6{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px; 
+}
+.wrapper-7{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px; 
+}
+.wrapper-8{
+    background-color:  rgb(255, 230, 172); 
+    padding: 15px; 
 }
