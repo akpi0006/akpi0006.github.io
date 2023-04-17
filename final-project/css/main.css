@@ -126,7 +126,7 @@ tr {
 }
 .vision-paragraph{
     position: absolute;
-    top: 5248px;
+    top: 5375px;
     left: 16px;
     text-align: start;
     color: rgb(255, 255, 255);
@@ -140,19 +140,19 @@ h2{
 h4{
     font-size: 28px;
 }
-
+h5{
+   font-size: 20px;
+   position: relative;
+   top: -20px;
+}
 
 /* horizontal line */
 hr {
+    position: relative;
+    top: -20px;
     border: none;
     border-bottom: 2px solid rgb(199, 139, 8); /* 2px is the thickness and black is the color */
 }
-
-footer{
-    background-color: rgb(34, 34, 34);
-    color: rgb(199, 139, 8); 
-}
-
 .nav{
     background-color: rgb(34, 34, 34);
 }
@@ -175,7 +175,7 @@ footer{
 }
 .wrapper-4{
     background-color:  rgb(255, 230, 172); 
-    padding: 0px; 
+    padding: 15px; 
 }
 .wrapper-5{
     background-color:  rgb(255, 230, 172); 
@@ -192,4 +192,9 @@ footer{
 .wrapper-8{
     background-color:  rgb(255, 230, 172); 
     padding: 15px; 
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 139, 8); 
 }
