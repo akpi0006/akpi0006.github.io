@@ -1,78 +1,224 @@
-html{
-    font-family: sans-serif;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:  white ;
+}
+
 header{
-    background-color: rgb(199, 139, 8);
+    background-color:#c78c06;
 }
+
+header nav ul li a{
+    color: #222;
+}
+
 .Home{
-    color: rgb(34, 34, 34);
+    color: #222;
+}
+.nav{
+    background-color: #222;
+    padding: 10px; 
 }
 nav ul li{
     display: inline;/* Make it an inline element */
-    color:  rgb(199, 139, 8);
+    color: #c78c06;
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+     font-size: 20px; 
     margin: 6%;
     padding-left: 10px;/* Set padding */
     text-align: center; /* Center text */
 }
 li a {
-    color: rgb(199, 139, 8);
+    color: #c78c06;
     text-decoration: none;
 }
 .search {
-   font-size: 20px;
-   width:554px;
-   height: 35px;
-   padding: 6px;
+    font-size: 20px;
+    max-width: 1200px;
+    width: 690px;
+    height: 35px;
+    padding: 3px; 
 } 
-.fa-magnifying-glass{
-  color:  rgb(199, 139, 8);
-  width: 10px;
-  height: 10px;
-  border: 1px solid  rgb(199, 139, 8);
-  padding: 16px;/* Set padding */
+ .fa-magnifying-glass{
+   color: #c78c06;
+   width: 10px;
+   height: 16px;
+   border: 1px solid  #c78c06;
+   padding: 12px;/* Set padding */
 }
-header nav ul li a{
-    color: rgb(34, 34, 34);
+.welcome{
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding: 7rem;
+    background-position: center;
+
 }
+.welcome .wrapper{
+    background-color: rgba(0,0,0,0.6);
+    padding: 2rem;
+    color: white;
+}
+.heading {
+    font-size: 3rem;
+} 
+
 .button {
-    background-color: rgb(199, 139, 8);
+    background-color:#c78c06;
     border: none; /* Remove borders */
-    color: rgb(0, 0, 0); 
-    padding: 30px 27px; /* Set padding */
+    color: #222; 
+    padding: 20px 40px; /* Set padding */
+    padding-left: 5%;
     text-align: center; 
-    display: inline-block; /* Make it an inline element */
     font-size: 18px;
+    display:inline-block;
 }
 .button-1 {
     background-color: rgb(34, 34, 34);
-    border: none; 
-    color: rgb(255, 255, 255); 
-    padding: 35px 27px;
+    border: none; /* Remove borders */
+    color: white; 
+    padding: 40px 30px; /* Set padding */
+    padding-left: 2%;
     text-align: center; 
-    display: inline-block; 
-    font-size: 18px;
+    font-size: 25px;
+    display:inline-block;
 }
 .button-2 {
     background-color: rgb(12, 41, 69);
     border: none; 
-    color: rgb(255, 255, 255); 
+    color:  white; 
     padding: 25px 30px;
     text-align: center; 
     display: inline-block; 
     font-size: 18px;
-    border: 2px solid rgb(199, 139, 8);
+    border: 2px solid#c78c06;
 }
 .button-3{
-    background-color: rgb(34, 34, 34);
+    background-color:#222;
     border: none; 
-    color: rgb(199, 139, 8); 
+    color: #c78c06; 
     padding: 8px 8px;
     text-align: center; 
     display: inline-block; 
     font-size: 18px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#bob , #print ,#about-us, #digital , #marketing , #video , #web , #print , #john{
+    width: 1200px;
+}
+
+.vision_image{
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    padding: 1rem;
+    background-position: center;
+}
+.vision{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    padding: 1rem;
+    text-align:start;
+    color: white;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+}
+ h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+   font-size: 18px;
+   position: relative;
+   top: 8px;
+}
+.bold {
+    font-weight: 1000;
+}
+.wrapper-1{
+    background-color:  #ffe6ac; 
+    padding-bottom: 10px; 
+    max-width: 1200px;
+    height: auto;
+}
+.wrapper-2{
+    background-color:  #ffe6ac; 
+    padding: 10px; 
+    max-width: 1200px;
+    height: auto;
+}
+
+/* horizontal line */
+hr {
+    position: relative;
+    top: 4px;
+    border: none;
+    border-bottom: 2px solid #c78c06; 
+    /* 2px is the thickness and black is the color */
 }
 table {
     border-collapse: collapse;
@@ -83,124 +229,35 @@ table {
 th{
     padding: 20px; /* Set padding for table data */
     background-color: rgb(255, 230, 172); /* Set header background color */
-     border-left: 1px solid rgb(0, 0, 0);
-    border-right: 1px solid rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(0, 0, 0);
-    border-top: 1px solid rgb(0, 0, 0);
+     border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222;
     border-collapse: collapse; 
 }
 td {
-    border-left: 1px solid rgb(0, 0, 0);
-    border-right: 1px solid rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-bottom: 1px solid #222;
     border-collapse: collapse;
     text-align: left; /* Align table data to the left */
     padding: 20px; /* Set padding for table data */
 }
 tr {
     border-collapse: collapse;
-    background-color: #ffffff; /* Adds background color to even rows */
-    border-bottom: 1px solid rgb(0, 0, 0);
-}
-.image-container {
-    position: relative; /* Set the position property of the parent container to relative */
-}
-.opacity {
-    position: absolute; /* Set the position property of the overlay to absolute */
-    top: 50%; /* Position the overlay at the center of the container vertically */
-    left: 50%; /* Position the overlay at the center of the container horizontally */
-    transform: translate(-50%, -50%); /* Use transform to center the overlay */
-    width: 100%; /* Set the width of the overlay */
-    height: 80%; /* Set the height of the overlay */
-    background-color: rgba(0, 0, 0, 0.5); /* Set the background color of the overlay to black with 50% opacity */
-    z-index: 1; /* Set the z-index property of the overlay to a higher value than the image, so it appears on top */
-}
-.text {
-    position: absolute; /* Set the position property of the text container to absolute */
-    top: 50%; /* Position the text container at the center of the container vertically */
-    left: 50%; /* Position the text container at the center of the container horizontally */
-    transform: translate(-80%, -50%); /* Use transform to center the text container */
-    z-index: 2; /* Sets the text container to a higher value than the opacity, so it appears on top */
-    color: rgb(255, 255, 255);
-    font-size: 20px; 
-}
-.text p {
-    color: rgb(255, 255, 255); 
-    font-size: 13px;
-}
-.vision-paragraph{
-    position: absolute;
-    top: 5390px;
-    left: 16px;
-    text-align: start;
-    color: rgb(255, 255, 255);
-}
-h2{
-    font-size: 43px;
-}
- h3{
-    font-size: 38px;
-}
-h4{
-    font-size: 28px;
-}
-h5{
-   font-size: 20px;
-   position: relative;
-   top: -20px;
+    background-color:  white; /* Adds background color to even rows */
+    border-bottom: 1px solid #222;
 }
 
-/* horizontal line */
-hr {
-    position: relative;
-    top: -20px;
-    border: none;
-    border-bottom: 2px solid rgb(199, 139, 8); 
-    /* 2px is the thickness and black is the color */
-}
-.nav{
-    background-color: rgb(34, 34, 34);
-    padding: 10px; 
-}
-
-.wrapper {
-    max-width: 1200px;
-
-}
-.wrapper-1{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-2{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-3{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-4{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-5{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-6{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-7{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
-}
-.wrapper-8{
-    background-color:  rgb(255, 230, 172); 
-    padding: 15px; 
+.form ,#email ,#yourname ,#message {
+    width: 754px;
 }
 
 footer{
-    background-color: rgb(34, 34, 34);
-    color: rgb(199, 139, 8); 
+    background-color: #222;
+    color: #c78c06; 
+    padding: 15px; 
 }
+ 
+
+
