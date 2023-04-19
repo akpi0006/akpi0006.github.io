@@ -401,19 +401,18 @@ nav ul li {
     padding-left: 350px;
     font-weight: bolder;
 }
+
+
+
+
+
 .wrapper-bob .bob-text{
     padding-left: 350px;
 }
 
 #bob {
     width: 50%;
-    margin-left: 1200px; /* You can adjust this value to create more or less space between the text and image */
-}
-.button-1{
-    width: 90%;
-    text-align: center;
-    margin: auto;
-    margin-left: 5%;
+    margin-left: 1200px; 
 }
 .wrapper-john .john-text{
     padding-left: 350px;
@@ -425,6 +424,15 @@ nav ul li {
     margin-right: 1200px;
 }
 
+
+
+
+.button-1{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-left: 5%;
+}
 .grid-contact{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
