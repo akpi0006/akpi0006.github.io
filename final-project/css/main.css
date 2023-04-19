@@ -264,6 +264,9 @@ footer{
 
 
 @media screen and (min-width: 760px){
+header{
+    background-color: #222;
+}
 .nav {
     display: flex;
     flex-direction: row;
@@ -276,6 +279,7 @@ footer{
     float: left;
     margin-right: 90px;
     width: 50%;
+    background-color: #222;
 }
 .Home {
     display: flex;
