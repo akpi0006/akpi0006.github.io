@@ -262,12 +262,7 @@ footer{
 
 
 
-
-
-
-
-
-@media screen and (min-width: 760px){
+@media screen and (min-width: 770px){
 .Home{
     background-color: #c78c06;
     width: 100px;
@@ -288,9 +283,10 @@ footer{
 
 }
 .Home {
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-right: 20px;
+    background-color: #c78c06;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
 }
   
 nav ul {
@@ -304,14 +300,7 @@ nav ul li {
     display: inline-block;
     margin-right: 100px;
     align-items: center;
-}
-
-nav li a {
-    display: block;
-   color: #c78c06;
-    text-decoration: none;
-}
-  
+} 
 .search_bar {
     display: flex;
     flex-direction: row;
@@ -324,8 +313,61 @@ nav li a {
     background-position: center;
 }
 .welcome .wrapper{
-    padding: 6rem;
+    padding: 5rem;
 }
+.heading {
+    font-size: 5rem;
+} 
+.bold {
+    font-weight: bold;
+}
+.wrapper-2 {
+    overflow: hidden; 
+    max-width: 100%;
+}
+.about-us-p{
+    float: left; 
+} 
+#about-us {
+    float: left; /* or right */
+    margin: 0 20px 20px 0; /* space around the image */
+    max-width: 30%; /* adjust the width of the image */
+    padding-left: 40px;
+}
+.text {
+    overflow: hidden; /* to contain floated image */
+   padding-right: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+      "D-T D-T D-T M M M"
+      "Vid Vid Web-Dev Web-Dev print print"
+  }
+  
+.D-T {
+    grid-area: D-T;
+}
+  
+.M{
+    grid-area: M;
+}
+
+.Vid {
+    grid-area: Vid;
+}
+
+.Web-Dev {
+    grid-area: Web-Dev;
+}
+
+.print{
+    grid-area: print;
+}
+  
+  
+
 
 
 
