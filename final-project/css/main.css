@@ -261,3 +261,74 @@ footer{
  
 
 
+
+
+
+
+
+
+@media screen and (min-width: 760px){
+.Home{
+    background-color: #c78c06;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px;
+}
+#logo{
+    float: left;
+    padding-right: 90px;
+
+}
+.Home {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+  
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+    align-items: center;
+}
+
+nav li a {
+    display: block;
+   color: #c78c06;
+    text-decoration: none;
+}
+  
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    width: 690px;
+}
+.welcome{
+    background-size: cover;
+    padding: 8rem;
+    background-position: center;
+}
+.welcome .wrapper{
+    padding: 6rem;
+}
+
+
+
+}
+
+
